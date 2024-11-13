@@ -11,14 +11,14 @@ export default function Home() {
       >
         <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
           <h1 className="text-[50px] text-white font-semibold">
-            I'm Sardar Azeem,
+            I&apos;m Sardar Azeem,
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
               {" "}
               a Full Stack Web Developer 
             </span>
           </h1>
           <p className="text-gray-200 hidden md:block">
-            I'm a Full Stack Developer skilled in creating responsive and
+            I&apos;m a Full Stack Developer skilled in creating responsive and
             scalable web applications. With expertise in HTML, CSS, JavaScript,
             TypeScript, and frameworks like React and Next.js, I build efficient
             solutions for modern web development

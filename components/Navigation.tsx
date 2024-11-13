@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import Transition from "./Transition";
 
+
 const Navigation = () => {
   const [isRouting, setisRouting] = useState(false);
   const path = usePathname();
@@ -25,7 +26,7 @@ const Navigation = () => {
 
       return () => clearTimeout(timeout);
     }
-  }, [isRouting]);
+  }, [isRouting, path]);
   return (
     <div
       style={{ left: "20%" }}
